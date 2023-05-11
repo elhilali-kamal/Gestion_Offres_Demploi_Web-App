@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway|Ubuntu&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f1f2f7;
+  font-family: "Open Sans", arial, sans-serif;
+  color: darkslategray;
+}
+
+table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 2%;
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 10px;
+  padding-bottom: 14px;
+}
+
+tr:not(:first-child):hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+td {
+  line-height: 40px;
+  font-weight: 300;
+  padding: 0 10px;
+}
